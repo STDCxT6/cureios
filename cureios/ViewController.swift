@@ -26,5 +26,8 @@ class ViewController: UIViewController {
     func alan(){
         print("Hai nama saya Alan")
     }
+    func alia() {
+        print("saya sayang craig 🙏")
+    }
 
 }
