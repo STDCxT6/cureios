@@ -13,9 +13,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
+
     func hello(){
         print("Hello Gais!")
+    }
+    
+    func Namei(){
+        print("Chiga")
     }
 
 }
