@@ -37,6 +37,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1EE91B22BF2F6E500A66182 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B1EE91B32BF2F75100A66182 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		B1EF53E12BF14B3400FEAC6F = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +70,8 @@
 		B1EF53EC2BF14B3400FEAC6F /* cureios */ = {
 			isa = PBXGroup;
 			children = (
+				B1EE91B32BF2F75100A66182 /* view */,
+				B1EE91B22BF2F6E500A66182 /* controller */,
 				B1EF53ED2BF14B3400FEAC6F /* AppDelegate.swift */,
 				B1EF53EF2BF14B3400FEAC6F /* SceneDelegate.swift */,
 				B1EF53F12BF14B3400FEAC6F /* ViewController.swift */,
