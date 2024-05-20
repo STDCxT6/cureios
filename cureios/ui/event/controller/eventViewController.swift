@@ -12,7 +12,24 @@ class eventViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+//        let toolbar = UIToolbar()
+//        toolbar.translatesAutoresizingMaskIntoConstraints = false
+//        view.addSubview(toolbar)
+//        
+//        let flexibleSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+//        let toolbarButton = UIBarButtonItem(title: "Map", style: .plain, target: self, action: nil)
+//        // Do any additional setup after loading the view.
+//        
+//        toolbar.items = [flexibleSpace, flexibleSpace, toolbarButton]
+//        
+//        let safeArea = view.safeAreaLayoutGuide
+//        NSLayoutConstraint.activate([
+//            toolbar.topAnchor.constraint(equalTo: safeArea.topAnchor),
+//            toolbar.leadingAnchor.constraint(equalTo: safeArea.leadingAnchor),
+//            toolbar.trailingAnchor.constraint(equalTo: safeArea.trailingAnchor)
+//        ])
+//        
     }
     
 
