@@ -7,22 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B141AFA02BFAF2BE00EB1B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EF53F62BF14B4000FEAC6F /* Assets.xcassets */; };
+		B141AFB32BFAF2D300EB1B3F /* Exo-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFA12BFAF2D300EB1B3F /* Exo-ExtraBoldItalic.ttf */; };
+		B141AFB42BFAF2D300EB1B3F /* Exo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFA22BFAF2D300EB1B3F /* Exo-Bold.ttf */; };
+		B141AFB52BFAF2D300EB1B3F /* Exo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFA32BFAF2D300EB1B3F /* Exo-ExtraLight.ttf */; };
+		B141AFB62BFAF2D300EB1B3F /* Exo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFA42BFAF2D300EB1B3F /* Exo-Thin.ttf */; };
+		B141AFB72BFAF2D300EB1B3F /* Exo-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFA52BFAF2D300EB1B3F /* Exo-LightItalic.ttf */; };
+		B141AFB82BFAF2D300EB1B3F /* Exo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFA62BFAF2D300EB1B3F /* Exo-Regular.ttf */; };
+		B141AFB92BFAF2D300EB1B3F /* Exo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFA72BFAF2D300EB1B3F /* Exo-SemiBold.ttf */; };
+		B141AFBA2BFAF2D300EB1B3F /* Exo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFA82BFAF2D300EB1B3F /* Exo-Medium.ttf */; };
+		B141AFBB2BFAF2D300EB1B3F /* Exo-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFA92BFAF2D300EB1B3F /* Exo-SemiBoldItalic.ttf */; };
+		B141AFBC2BFAF2D300EB1B3F /* Exo-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFAA2BFAF2D300EB1B3F /* Exo-ExtraLightItalic.ttf */; };
+		B141AFBD2BFAF2D300EB1B3F /* Exo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFAB2BFAF2D300EB1B3F /* Exo-ExtraBold.ttf */; };
+		B141AFBE2BFAF2D300EB1B3F /* Exo-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFAC2BFAF2D300EB1B3F /* Exo-MediumItalic.ttf */; };
+		B141AFBF2BFAF2D300EB1B3F /* Exo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFAD2BFAF2D300EB1B3F /* Exo-BoldItalic.ttf */; };
+		B141AFC02BFAF2D300EB1B3F /* Exo-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFAE2BFAF2D300EB1B3F /* Exo-ThinItalic.ttf */; };
+		B141AFC12BFAF2D300EB1B3F /* Exo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFAF2BFAF2D300EB1B3F /* Exo-Black.ttf */; };
+		B141AFC22BFAF2D300EB1B3F /* Exo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFB02BFAF2D300EB1B3F /* Exo-Italic.ttf */; };
+		B141AFC32BFAF2D300EB1B3F /* Exo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFB12BFAF2D300EB1B3F /* Exo-Light.ttf */; };
+		B141AFC42BFAF2D300EB1B3F /* Exo-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFB22BFAF2D300EB1B3F /* Exo-BlackItalic.ttf */; };
+		B1A946D32BFB2D2F0041057F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946D12BFB2D2F0041057F /* Main.storyboard */; };
+		B1A946D72BFB2D8C0041057F /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946D62BFB2D8C0041057F /* home.storyboard */; };
+		B1A946D92BFB2D9B0041057F /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946D82BFB2D9B0041057F /* homeViewController.swift */; };
+		B1A946DE2BFB2E480041057F /* explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946DD2BFB2E480041057F /* explore.storyboard */; };
+		B1A946E02BFB2E580041057F /* exploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946DF2BFB2E580041057F /* exploreViewController.swift */; };
+		B1A946E52BFB2E9B0041057F /* event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946E42BFB2E9B0041057F /* event.storyboard */; };
+		B1A946E72BFB2EA70041057F /* eventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946E62BFB2EA70041057F /* eventViewController.swift */; };
+		B1A946EE2BFB36F40041057F /* hub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946ED2BFB36F40041057F /* hub.storyboard */; };
+		B1A946F02BFB37010041057F /* hubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946EF2BFB37010041057F /* hubViewController.swift */; };
+		B1A946F42BFB3E520041057F /* launchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946F32BFB3E520041057F /* launchScreen.storyboard */; };
 		B1EF53EE2BF14B3400FEAC6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF53ED2BF14B3400FEAC6F /* AppDelegate.swift */; };
 		B1EF53F02BF14B3400FEAC6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF53EF2BF14B3400FEAC6F /* SceneDelegate.swift */; };
-		B1EF53F22BF14B3400FEAC6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF53F12BF14B3400FEAC6F /* ViewController.swift */; };
-		B1EF53F52BF14B3400FEAC6F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B1EF53F42BF14B3400FEAC6F /* Base */; };
-		B1EF53F72BF14B4000FEAC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EF53F62BF14B4000FEAC6F /* Assets.xcassets */; };
-		B1EF53FA2BF14B4000FEAC6F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B1EF53F92BF14B4000FEAC6F /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B141AFA12BFAF2D300EB1B3F /* Exo-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B141AFA22BFAF2D300EB1B3F /* Exo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Bold.ttf"; sourceTree = "<group>"; };
+		B141AFA32BFAF2D300EB1B3F /* Exo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B141AFA42BFAF2D300EB1B3F /* Exo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Thin.ttf"; sourceTree = "<group>"; };
+		B141AFA52BFAF2D300EB1B3F /* Exo-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-LightItalic.ttf"; sourceTree = "<group>"; };
+		B141AFA62BFAF2D300EB1B3F /* Exo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Regular.ttf"; sourceTree = "<group>"; };
+		B141AFA72BFAF2D300EB1B3F /* Exo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-SemiBold.ttf"; sourceTree = "<group>"; };
+		B141AFA82BFAF2D300EB1B3F /* Exo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Medium.ttf"; sourceTree = "<group>"; };
+		B141AFA92BFAF2D300EB1B3F /* Exo-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B141AFAA2BFAF2D300EB1B3F /* Exo-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B141AFAB2BFAF2D300EB1B3F /* Exo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B141AFAC2BFAF2D300EB1B3F /* Exo-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B141AFAD2BFAF2D300EB1B3F /* Exo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B141AFAE2BFAF2D300EB1B3F /* Exo-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B141AFAF2BFAF2D300EB1B3F /* Exo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Black.ttf"; sourceTree = "<group>"; };
+		B141AFB02BFAF2D300EB1B3F /* Exo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Italic.ttf"; sourceTree = "<group>"; };
+		B141AFB12BFAF2D300EB1B3F /* Exo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Light.ttf"; sourceTree = "<group>"; };
+		B141AFB22BFAF2D300EB1B3F /* Exo-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B1A946D12BFB2D2F0041057F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B1A946D62BFB2D8C0041057F /* home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = home.storyboard; sourceTree = "<group>"; };
+		B1A946D82BFB2D9B0041057F /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		B1A946DD2BFB2E480041057F /* explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = explore.storyboard; sourceTree = "<group>"; };
+		B1A946DF2BFB2E580041057F /* exploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exploreViewController.swift; sourceTree = "<group>"; };
+		B1A946E42BFB2E9B0041057F /* event.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = event.storyboard; sourceTree = "<group>"; };
+		B1A946E62BFB2EA70041057F /* eventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventViewController.swift; sourceTree = "<group>"; };
+		B1A946ED2BFB36F40041057F /* hub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = hub.storyboard; sourceTree = "<group>"; };
+		B1A946EF2BFB37010041057F /* hubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hubViewController.swift; sourceTree = "<group>"; };
+		B1A946F32BFB3E520041057F /* launchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = launchScreen.storyboard; sourceTree = "<group>"; };
 		B1EF53EA2BF14B3400FEAC6F /* cureios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cureios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1EF53ED2BF14B3400FEAC6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1EF53EF2BF14B3400FEAC6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B1EF53F12BF14B3400FEAC6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B1EF53F42BF14B3400FEAC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1EF53F62BF14B4000FEAC6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B1EF53F92BF14B4000FEAC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1EF53FB2BF14B4000FEAC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +87,161 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B141AF9C2BFAF28200EB1B3F /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				B141AF9F2BFAF2B100EB1B3F /* fonts */,
+				B141AF9E2BFAF2AB00EB1B3F /* images */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		B141AF9E2BFAF2AB00EB1B3F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF53F62BF14B4000FEAC6F /* Assets.xcassets */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B141AF9F2BFAF2B100EB1B3F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B141AFAF2BFAF2D300EB1B3F /* Exo-Black.ttf */,
+				B141AFB22BFAF2D300EB1B3F /* Exo-BlackItalic.ttf */,
+				B141AFA22BFAF2D300EB1B3F /* Exo-Bold.ttf */,
+				B141AFAD2BFAF2D300EB1B3F /* Exo-BoldItalic.ttf */,
+				B141AFAB2BFAF2D300EB1B3F /* Exo-ExtraBold.ttf */,
+				B141AFA12BFAF2D300EB1B3F /* Exo-ExtraBoldItalic.ttf */,
+				B141AFA32BFAF2D300EB1B3F /* Exo-ExtraLight.ttf */,
+				B141AFAA2BFAF2D300EB1B3F /* Exo-ExtraLightItalic.ttf */,
+				B141AFB02BFAF2D300EB1B3F /* Exo-Italic.ttf */,
+				B141AFB12BFAF2D300EB1B3F /* Exo-Light.ttf */,
+				B141AFA52BFAF2D300EB1B3F /* Exo-LightItalic.ttf */,
+				B141AFA82BFAF2D300EB1B3F /* Exo-Medium.ttf */,
+				B141AFAC2BFAF2D300EB1B3F /* Exo-MediumItalic.ttf */,
+				B141AFA62BFAF2D300EB1B3F /* Exo-Regular.ttf */,
+				B141AFA72BFAF2D300EB1B3F /* Exo-SemiBold.ttf */,
+				B141AFA92BFAF2D300EB1B3F /* Exo-SemiBoldItalic.ttf */,
+				B141AFA42BFAF2D300EB1B3F /* Exo-Thin.ttf */,
+				B141AFAE2BFAF2D300EB1B3F /* Exo-ThinItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		B1A946CB2BFB283C0041057F /* home */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946D42BFB2D570041057F /* view */,
+				B1A946D52BFB2D610041057F /* controller */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		B1A946D42BFB2D570041057F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946D62BFB2D8C0041057F /* home.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B1A946D52BFB2D610041057F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946D82BFB2D9B0041057F /* homeViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B1A946DA2BFB2DBE0041057F /* explore */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946DB2BFB2E000041057F /* view */,
+				B1A946DC2BFB2E070041057F /* controller */,
+			);
+			path = explore;
+			sourceTree = "<group>";
+		};
+		B1A946DB2BFB2E000041057F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946DD2BFB2E480041057F /* explore.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B1A946DC2BFB2E070041057F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946DF2BFB2E580041057F /* exploreViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B1A946E12BFB2E5E0041057F /* event */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946E22BFB2E7C0041057F /* view */,
+				B1A946E32BFB2E810041057F /* controller */,
+			);
+			path = event;
+			sourceTree = "<group>";
+		};
+		B1A946E22BFB2E7C0041057F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946E42BFB2E9B0041057F /* event.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B1A946E32BFB2E810041057F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946E62BFB2EA70041057F /* eventViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B1A946EA2BFB36DA0041057F /* hub */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946EC2BFB36E80041057F /* controller */,
+				B1A946EB2BFB36E10041057F /* view */,
+			);
+			path = hub;
+			sourceTree = "<group>";
+		};
+		B1A946EB2BFB36E10041057F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946ED2BFB36F40041057F /* hub.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B1A946EC2BFB36E80041057F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946EF2BFB37010041057F /* hubViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B1EE91B32BF2F75100A66182 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946EA2BFB36DA0041057F /* hub */,
+				B1A946E12BFB2E5E0041057F /* event */,
+				B1A946DA2BFB2DBE0041057F /* explore */,
+				B1A946CB2BFB283C0041057F /* home */,
+				B1A946D12BFB2D2F0041057F /* Main.storyboard */,
+				B1A946F32BFB3E520041057F /* launchScreen.storyboard */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
 		B1EF53E12BF14B3400FEAC6F = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +261,21 @@
 		B1EF53EC2BF14B3400FEAC6F /* cureios */ = {
 			isa = PBXGroup;
 			children = (
+				B141AF9C2BFAF28200EB1B3F /* assets */,
+				B1FA8B8C2BF7A2BE0024FF55 /* model */,
+				B1EE91B32BF2F75100A66182 /* ui */,
 				B1EF53ED2BF14B3400FEAC6F /* AppDelegate.swift */,
 				B1EF53EF2BF14B3400FEAC6F /* SceneDelegate.swift */,
-				B1EF53F12BF14B3400FEAC6F /* ViewController.swift */,
-				B1EF53F32BF14B3400FEAC6F /* Main.storyboard */,
-				B1EF53F62BF14B4000FEAC6F /* Assets.xcassets */,
-				B1EF53F82BF14B4000FEAC6F /* LaunchScreen.storyboard */,
 				B1EF53FB2BF14B4000FEAC6F /* Info.plist */,
 			);
 			path = cureios;
+			sourceTree = "<group>";
+		};
+		B1FA8B8C2BF7A2BE0024FF55 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +336,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1EF53F72BF14B4000FEAC6F /* Assets.xcassets in Resources */,
-				B1EF53FA2BF14B4000FEAC6F /* Base in Resources */,
-				B1EF53F52BF14B3400FEAC6F /* Base in Resources */,
+				B1A946D32BFB2D2F0041057F /* Main.storyboard in Resources */,
+				B1A946E52BFB2E9B0041057F /* event.storyboard in Resources */,
+				B141AFA02BFAF2BE00EB1B3F /* Assets.xcassets in Resources */,
+				B141AFC42BFAF2D300EB1B3F /* Exo-BlackItalic.ttf in Resources */,
+				B141AFBB2BFAF2D300EB1B3F /* Exo-SemiBoldItalic.ttf in Resources */,
+				B141AFC32BFAF2D300EB1B3F /* Exo-Light.ttf in Resources */,
+				B141AFB92BFAF2D300EB1B3F /* Exo-SemiBold.ttf in Resources */,
+				B141AFB72BFAF2D300EB1B3F /* Exo-LightItalic.ttf in Resources */,
+				B141AFBC2BFAF2D300EB1B3F /* Exo-ExtraLightItalic.ttf in Resources */,
+				B1A946D72BFB2D8C0041057F /* home.storyboard in Resources */,
+				B141AFC12BFAF2D300EB1B3F /* Exo-Black.ttf in Resources */,
+				B141AFBA2BFAF2D300EB1B3F /* Exo-Medium.ttf in Resources */,
+				B141AFB42BFAF2D300EB1B3F /* Exo-Bold.ttf in Resources */,
+				B141AFBF2BFAF2D300EB1B3F /* Exo-BoldItalic.ttf in Resources */,
+				B1A946EE2BFB36F40041057F /* hub.storyboard in Resources */,
+				B1A946F42BFB3E520041057F /* launchScreen.storyboard in Resources */,
+				B141AFB82BFAF2D300EB1B3F /* Exo-Regular.ttf in Resources */,
+				B141AFB52BFAF2D300EB1B3F /* Exo-ExtraLight.ttf in Resources */,
+				B1A946DE2BFB2E480041057F /* explore.storyboard in Resources */,
+				B141AFC22BFAF2D300EB1B3F /* Exo-Italic.ttf in Resources */,
+				B141AFB62BFAF2D300EB1B3F /* Exo-Thin.ttf in Resources */,
+				B141AFBE2BFAF2D300EB1B3F /* Exo-MediumItalic.ttf in Resources */,
+				B141AFBD2BFAF2D300EB1B3F /* Exo-ExtraBold.ttf in Resources */,
+				B141AFC02BFAF2D300EB1B3F /* Exo-ThinItalic.ttf in Resources */,
+				B141AFB32BFAF2D300EB1B3F /* Exo-ExtraBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +371,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1EF53F22BF14B3400FEAC6F /* ViewController.swift in Sources */,
+				B1A946F02BFB37010041057F /* hubViewController.swift in Sources */,
+				B1A946E02BFB2E580041057F /* exploreViewController.swift in Sources */,
 				B1EF53EE2BF14B3400FEAC6F /* AppDelegate.swift in Sources */,
+				B1A946D92BFB2D9B0041057F /* homeViewController.swift in Sources */,
+				B1A946E72BFB2EA70041057F /* eventViewController.swift in Sources */,
 				B1EF53F02BF14B3400FEAC6F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B1EF53F32BF14B3400FEAC6F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1EF53F42BF14B3400FEAC6F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B1EF53F82BF14B4000FEAC6F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1EF53F92BF14B4000FEAC6F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B1EF53FC2BF14B4000FEAC6F /* Debug */ = {
@@ -290,21 +507,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6D2DJPGTY2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = cureios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cureios;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sofehaus.cureios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -318,21 +537,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6D2DJPGTY2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = cureios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cureios;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sofehaus.cureios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
