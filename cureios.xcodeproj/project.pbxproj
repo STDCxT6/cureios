@@ -26,14 +26,18 @@
 		B141AFC22BFAF2D300EB1B3F /* Exo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFB02BFAF2D300EB1B3F /* Exo-Italic.ttf */; };
 		B141AFC32BFAF2D300EB1B3F /* Exo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFB12BFAF2D300EB1B3F /* Exo-Light.ttf */; };
 		B141AFC42BFAF2D300EB1B3F /* Exo-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B141AFB22BFAF2D300EB1B3F /* Exo-BlackItalic.ttf */; };
+		B1A946D32BFB2D2F0041057F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946D12BFB2D2F0041057F /* Main.storyboard */; };
+		B1A946D72BFB2D8C0041057F /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946D62BFB2D8C0041057F /* home.storyboard */; };
+		B1A946D92BFB2D9B0041057F /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946D82BFB2D9B0041057F /* homeViewController.swift */; };
+		B1A946DE2BFB2E480041057F /* explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946DD2BFB2E480041057F /* explore.storyboard */; };
+		B1A946E02BFB2E580041057F /* exploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946DF2BFB2E580041057F /* exploreViewController.swift */; };
+		B1A946E52BFB2E9B0041057F /* event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946E42BFB2E9B0041057F /* event.storyboard */; };
+		B1A946E72BFB2EA70041057F /* eventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946E62BFB2EA70041057F /* eventViewController.swift */; };
+		B1A946EE2BFB36F40041057F /* hub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946ED2BFB36F40041057F /* hub.storyboard */; };
+		B1A946F02BFB37010041057F /* hubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946EF2BFB37010041057F /* hubViewController.swift */; };
+		B1A946F42BFB3E520041057F /* launchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946F32BFB3E520041057F /* launchScreen.storyboard */; };
 		B1EF53EE2BF14B3400FEAC6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF53ED2BF14B3400FEAC6F /* AppDelegate.swift */; };
 		B1EF53F02BF14B3400FEAC6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF53EF2BF14B3400FEAC6F /* SceneDelegate.swift */; };
-		B1FA8B802BF5F28B0024FF55 /* event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FA8B7F2BF5F28B0024FF55 /* event.storyboard */; };
-		B1FA8B822BF5F2980024FF55 /* explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FA8B812BF5F2980024FF55 /* explore.storyboard */; };
-		B1FA8B892BF5F3010024FF55 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA8B882BF5F3010024FF55 /* EventListViewController.swift */; };
-		B1FA8B902BF83FD10024FF55 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA8B8F2BF83FD10024FF55 /* HomeViewController.swift */; };
-		B1FA8B922BF83FF10024FF55 /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FA8B912BF83FF10024FF55 /* home.storyboard */; };
-		B1FA8B952BFA84D40024FF55 /* FeatureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA8B942BFA84D40024FF55 /* FeatureTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,19 +59,21 @@
 		B141AFB02BFAF2D300EB1B3F /* Exo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Italic.ttf"; sourceTree = "<group>"; };
 		B141AFB12BFAF2D300EB1B3F /* Exo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Light.ttf"; sourceTree = "<group>"; };
 		B141AFB22BFAF2D300EB1B3F /* Exo-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B1A946D12BFB2D2F0041057F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B1A946D62BFB2D8C0041057F /* home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = home.storyboard; sourceTree = "<group>"; };
+		B1A946D82BFB2D9B0041057F /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		B1A946DD2BFB2E480041057F /* explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = explore.storyboard; sourceTree = "<group>"; };
+		B1A946DF2BFB2E580041057F /* exploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exploreViewController.swift; sourceTree = "<group>"; };
+		B1A946E42BFB2E9B0041057F /* event.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = event.storyboard; sourceTree = "<group>"; };
+		B1A946E62BFB2EA70041057F /* eventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventViewController.swift; sourceTree = "<group>"; };
+		B1A946ED2BFB36F40041057F /* hub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = hub.storyboard; sourceTree = "<group>"; };
+		B1A946EF2BFB37010041057F /* hubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hubViewController.swift; sourceTree = "<group>"; };
+		B1A946F32BFB3E520041057F /* launchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = launchScreen.storyboard; sourceTree = "<group>"; };
 		B1EF53EA2BF14B3400FEAC6F /* cureios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cureios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1EF53ED2BF14B3400FEAC6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1EF53EF2BF14B3400FEAC6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B1EF53F42BF14B3400FEAC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1EF53F62BF14B4000FEAC6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B1EF53F92BF14B4000FEAC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/launchScreen.storyboard; sourceTree = "<group>"; };
 		B1EF53FB2BF14B4000FEAC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1FA8B7F2BF5F28B0024FF55 /* event.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = event.storyboard; path = ../event.storyboard; sourceTree = "<group>"; };
-		B1FA8B812BF5F2980024FF55 /* explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = explore.storyboard; sourceTree = "<group>"; };
-		B1FA8B882BF5F3010024FF55 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventListViewController.swift; path = ../EventListViewController.swift; sourceTree = "<group>"; };
-		B1FA8B8F2BF83FD10024FF55 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		B1FA8B912BF83FF10024FF55 /* home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = home.storyboard; sourceTree = "<group>"; };
-		B1FA8B942BFA84D40024FF55 /* FeatureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,50 +129,102 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
-		B141AFC52BFAF2E400EB1B3F /* view */ = {
+		B1A946CB2BFB283C0041057F /* home */ = {
 			isa = PBXGroup;
 			children = (
-				B1FA8B912BF83FF10024FF55 /* home.storyboard */,
+				B1A946D42BFB2D570041057F /* view */,
+				B1A946D52BFB2D610041057F /* controller */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		B1A946D42BFB2D570041057F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946D62BFB2D8C0041057F /* home.storyboard */,
 			);
 			path = view;
 			sourceTree = "<group>";
 		};
-		B1A946C62BFAF3B80041057F /* explore */ = {
+		B1A946D52BFB2D610041057F /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				B1A946C72BFAF3CA0041057F /* view */,
-				B1A946C82BFAF3D10041057F /* controller */,
-			);
-			path = explore;
-			sourceTree = "<group>";
-		};
-		B1A946C72BFAF3CA0041057F /* view */ = {
-			isa = PBXGroup;
-			children = (
-				B1FA8B812BF5F2980024FF55 /* explore.storyboard */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		B1A946C82BFAF3D10041057F /* controller */ = {
-			isa = PBXGroup;
-			children = (
+				B1A946D82BFB2D9B0041057F /* homeViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
 		};
-		B1A946C92BFAF3DD0041057F /* view */ = {
+		B1A946DA2BFB2DBE0041057F /* explore */ = {
 			isa = PBXGroup;
 			children = (
-				B1FA8B7F2BF5F28B0024FF55 /* event.storyboard */,
+				B1A946DB2BFB2E000041057F /* view */,
+				B1A946DC2BFB2E070041057F /* controller */,
+			);
+			path = explore;
+			sourceTree = "<group>";
+		};
+		B1A946DB2BFB2E000041057F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946DD2BFB2E480041057F /* explore.storyboard */,
 			);
 			path = view;
 			sourceTree = "<group>";
 		};
-		B1A946CA2BFAF3E40041057F /* controller */ = {
+		B1A946DC2BFB2E070041057F /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				B1FA8B882BF5F3010024FF55 /* EventListViewController.swift */,
+				B1A946DF2BFB2E580041057F /* exploreViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B1A946E12BFB2E5E0041057F /* event */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946E22BFB2E7C0041057F /* view */,
+				B1A946E32BFB2E810041057F /* controller */,
+			);
+			path = event;
+			sourceTree = "<group>";
+		};
+		B1A946E22BFB2E7C0041057F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946E42BFB2E9B0041057F /* event.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B1A946E32BFB2E810041057F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946E62BFB2EA70041057F /* eventViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B1A946EA2BFB36DA0041057F /* hub */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946EC2BFB36E80041057F /* controller */,
+				B1A946EB2BFB36E10041057F /* view */,
+			);
+			path = hub;
+			sourceTree = "<group>";
+		};
+		B1A946EB2BFB36E10041057F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946ED2BFB36F40041057F /* hub.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B1A946EC2BFB36E80041057F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1A946EF2BFB37010041057F /* hubViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -174,11 +232,12 @@
 		B1EE91B32BF2F75100A66182 /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				B1FA8B8D2BF83F6F0024FF55 /* home */,
-				B1A946C62BFAF3B80041057F /* explore */,
-				B1FA8B872BF5F2E60024FF55 /* event */,
-				B1EF53F82BF14B4000FEAC6F /* launchScreen.storyboard */,
-				B1EF53F32BF14B3400FEAC6F /* Main.storyboard */,
+				B1A946EA2BFB36DA0041057F /* hub */,
+				B1A946E12BFB2E5E0041057F /* event */,
+				B1A946DA2BFB2DBE0041057F /* explore */,
+				B1A946CB2BFB283C0041057F /* home */,
+				B1A946D12BFB2D2F0041057F /* Main.storyboard */,
+				B1A946F32BFB3E520041057F /* launchScreen.storyboard */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -212,38 +271,11 @@
 			path = cureios;
 			sourceTree = "<group>";
 		};
-		B1FA8B872BF5F2E60024FF55 /* event */ = {
-			isa = PBXGroup;
-			children = (
-				B1A946C92BFAF3DD0041057F /* view */,
-				B1A946CA2BFAF3E40041057F /* controller */,
-			);
-			path = event;
-			sourceTree = "<group>";
-		};
 		B1FA8B8C2BF7A2BE0024FF55 /* model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = model;
-			sourceTree = "<group>";
-		};
-		B1FA8B8D2BF83F6F0024FF55 /* home */ = {
-			isa = PBXGroup;
-			children = (
-				B141AFC52BFAF2E400EB1B3F /* view */,
-				B1FA8B932BFA84B60024FF55 /* controller */,
-			);
-			path = home;
-			sourceTree = "<group>";
-		};
-		B1FA8B932BFA84B60024FF55 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				B1FA8B8F2BF83FD10024FF55 /* HomeViewController.swift */,
-				B1FA8B942BFA84D40024FF55 /* FeatureTableViewCell.swift */,
-			);
-			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,9 +336,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1FA8B922BF83FF10024FF55 /* home.storyboard in Resources */,
-				B1FA8B822BF5F2980024FF55 /* explore.storyboard in Resources */,
-				B1FA8B802BF5F28B0024FF55 /* event.storyboard in Resources */,
+				B1A946D32BFB2D2F0041057F /* Main.storyboard in Resources */,
+				B1A946E52BFB2E9B0041057F /* event.storyboard in Resources */,
 				B141AFA02BFAF2BE00EB1B3F /* Assets.xcassets in Resources */,
 				B141AFC42BFAF2D300EB1B3F /* Exo-BlackItalic.ttf in Resources */,
 				B141AFBB2BFAF2D300EB1B3F /* Exo-SemiBoldItalic.ttf in Resources */,
@@ -314,12 +345,16 @@
 				B141AFB92BFAF2D300EB1B3F /* Exo-SemiBold.ttf in Resources */,
 				B141AFB72BFAF2D300EB1B3F /* Exo-LightItalic.ttf in Resources */,
 				B141AFBC2BFAF2D300EB1B3F /* Exo-ExtraLightItalic.ttf in Resources */,
+				B1A946D72BFB2D8C0041057F /* home.storyboard in Resources */,
 				B141AFC12BFAF2D300EB1B3F /* Exo-Black.ttf in Resources */,
 				B141AFBA2BFAF2D300EB1B3F /* Exo-Medium.ttf in Resources */,
 				B141AFB42BFAF2D300EB1B3F /* Exo-Bold.ttf in Resources */,
 				B141AFBF2BFAF2D300EB1B3F /* Exo-BoldItalic.ttf in Resources */,
+				B1A946EE2BFB36F40041057F /* hub.storyboard in Resources */,
+				B1A946F42BFB3E520041057F /* launchScreen.storyboard in Resources */,
 				B141AFB82BFAF2D300EB1B3F /* Exo-Regular.ttf in Resources */,
 				B141AFB52BFAF2D300EB1B3F /* Exo-ExtraLight.ttf in Resources */,
+				B1A946DE2BFB2E480041057F /* explore.storyboard in Resources */,
 				B141AFC22BFAF2D300EB1B3F /* Exo-Italic.ttf in Resources */,
 				B141AFB62BFAF2D300EB1B3F /* Exo-Thin.ttf in Resources */,
 				B141AFBE2BFAF2D300EB1B3F /* Exo-MediumItalic.ttf in Resources */,
@@ -336,34 +371,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1FA8B952BFA84D40024FF55 /* FeatureTableViewCell.swift in Sources */,
-				B1FA8B902BF83FD10024FF55 /* HomeViewController.swift in Sources */,
-				B1FA8B892BF5F3010024FF55 /* EventListViewController.swift in Sources */,
+				B1A946F02BFB37010041057F /* hubViewController.swift in Sources */,
+				B1A946E02BFB2E580041057F /* exploreViewController.swift in Sources */,
 				B1EF53EE2BF14B3400FEAC6F /* AppDelegate.swift in Sources */,
+				B1A946D92BFB2D9B0041057F /* homeViewController.swift in Sources */,
+				B1A946E72BFB2EA70041057F /* eventViewController.swift in Sources */,
 				B1EF53F02BF14B3400FEAC6F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B1EF53F32BF14B3400FEAC6F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1EF53F42BF14B3400FEAC6F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B1EF53F82BF14B4000FEAC6F /* launchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1EF53F92BF14B4000FEAC6F /* Base */,
-			);
-			name = launchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B1EF53FC2BF14B4000FEAC6F /* Debug */ = {
@@ -490,21 +507,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6D2DJPGTY2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = cureios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cureios;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sofehaus.cureios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -518,21 +537,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6D2DJPGTY2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = cureios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cureios;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sofehaus.cureios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
