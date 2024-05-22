@@ -50,11 +50,14 @@ class ExploreViewController: UIViewController, UITableViewDataSource, UITableVie
     
 }
 
-extension  UIImageView{
+extension UIImageView {
     func clipToBulat() {
         self.layoutIfNeeded()
-        self.layer.cornerRadius = self.frame.height / 2
+        
+        // Set the default corner radius to 12 points
+        self.layer.cornerRadius = 12
         self.clipsToBounds = true
+
     }
 }
 
