@@ -41,8 +41,6 @@
 		FD0C106E2BFC831C009BD79A /* ExploreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C106D2BFC831C009BD79A /* ExploreData.swift */; };
 		FD0C10722BFC864A009BD79A /* ExploreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C10712BFC864A009BD79A /* ExploreDetailsViewController.swift */; };
 		FD0C10742BFC87E8009BD79A /* ExploreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C10732BFC87E8009BD79A /* ExploreTableViewCell.swift */; };
-		FD292C8B2BFB4ADE00D9512D /* course.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD292C8A2BFB4ADE00D9512D /* course.swift */; };
-		FD292C8D2BFB4B5900D9512D /* institute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD292C8C2BFB4B5900D9512D /* institute.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -390,9 +388,7 @@
 				B1A946F02BFB37010041057F /* hubViewController.swift in Sources */,
 				B1A946E02BFB2E580041057F /* ExploreViewController.swift in Sources */,
 				B1EF53EE2BF14B3400FEAC6F /* AppDelegate.swift in Sources */,
-				FD292C8D2BFB4B5900D9512D /* institute.swift in Sources */,
 				FD0C106E2BFC831C009BD79A /* ExploreData.swift in Sources */,
-				FD292C8B2BFB4ADE00D9512D /* course.swift in Sources */,
 				B1A946D92BFB2D9B0041057F /* homeViewController.swift in Sources */,
 				B1A946E72BFB2EA70041057F /* eventViewController.swift in Sources */,
 				FD0C10722BFC864A009BD79A /* ExploreDetailsViewController.swift in Sources */,

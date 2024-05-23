@@ -43,7 +43,7 @@ class ExploreViewController: UIViewController, UITableViewDataSource, UITableVie
         guard let ExploreDetailViewController = segue.destination as?
                 ExploreDetailViewController, let selectedCell = sender as?
                 ExploreTableViewCell, let indexPath = tableview.indexPath(for:selectedCell) else {
-                fatalError("Could not get indexPath")
+                return
         }
         let selectedExploreData = tableData[indexPath.row]
         ExploreDetailViewController.selectedExploreData = selectedExploreData    }
