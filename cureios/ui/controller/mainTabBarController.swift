@@ -1,13 +1,13 @@
 //
-//  homeViewController.swift
+//  mainTabBarController.swift
 //  cureios
 //
-//  Created by STDC_37 on 20/05/2024.
+//  Created by STDC_37 on 23/05/2024.
 //
 
 import UIKit
 
-class homeViewController: UIViewController {
+class mainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,10 +15,9 @@ class homeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func gotoExplore(_ sender: UIButton) {
-        self.tabBarController?.selectedIndex = 1
-    }
     
+    
+
     /*
     // MARK: - Navigation
 

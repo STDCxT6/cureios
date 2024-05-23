@@ -122,10 +122,10 @@
             </objects>
             <point key="canvasLocation" x="2488" y="1091"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="a7i-l2-p7M">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="MPO-Rl-a4l" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="MPO-Rl-a4l" customClass="mainTabBarController" customModule="cureios" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MsJ-3j-N6H">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>

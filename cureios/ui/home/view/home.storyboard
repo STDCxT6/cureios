@@ -24,7 +24,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="W1G-3d-1i1">
-                                        <rect key="frame" x="20" y="16" width="393" height="833.33333333333337"/>
+                                        <rect key="frame" x="20" y="16" width="393" height="833"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5f9-ad-3gm">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="40.666666666666664"/>
@@ -33,7 +33,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-48" translatesAutoresizingMaskIntoConstraints="NO" id="0gt-1y-CoA">
-                                                <rect key="frame" x="0.0" y="56.666666666666686" width="393" height="776.66666666666652"/>
+                                                <rect key="frame" x="0.0" y="56.666666666666686" width="393" height="776.33333333333326"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H8y-ZK-Lc0">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="412.33333333333331"/>
@@ -97,7 +97,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kSk-qq-Zdv">
-                                                        <rect key="frame" x="0.0" y="364.33333333333337" width="393" height="412.33333333333337"/>
+                                                        <rect key="frame" x="0.0" y="364.33333333333337" width="393" height="412"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education Journey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdn-ZA-Vka">
                                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="24"/>
@@ -118,17 +118,29 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <scrollView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dH-1V-eeb">
-                                                                <rect key="frame" x="-72" y="0.0" width="497" height="412.33333333333331"/>
+                                                                <rect key="frame" x="-72" y="0.0" width="497" height="412"/>
                                                                 <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jq-ie-mng">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="497" height="412"/>
+                                                                        <state key="normal" title="Button"/>
+                                                                        <buttonConfiguration key="configuration" style="plain"/>
+                                                                        <connections>
+                                                                            <action selector="gotoExplore:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="bBY-oH-zR4"/>
+                                                                        </connections>
+                                                                    </button>
                                                                     <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="explore-cards" translatesAutoresizingMaskIntoConstraints="NO" id="qhf-3O-SNT">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="800" height="412.33333333333331"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="800" height="412"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="800" id="2LB-sd-QRJ"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                 </subviews>
                                                                 <constraints>
+                                                                    <constraint firstItem="4jq-ie-mng" firstAttribute="width" secondItem="0dH-1V-eeb" secondAttribute="width" id="4xo-iv-eQw"/>
+                                                                    <constraint firstItem="4jq-ie-mng" firstAttribute="centerX" secondItem="0dH-1V-eeb" secondAttribute="centerX" id="8pV-df-Xzq"/>
+                                                                    <constraint firstItem="4jq-ie-mng" firstAttribute="centerY" secondItem="0dH-1V-eeb" secondAttribute="centerY" id="OSv-ug-90s"/>
                                                                     <constraint firstItem="qhf-3O-SNT" firstAttribute="top" secondItem="0dH-1V-eeb" secondAttribute="top" id="PsR-tP-GJ7"/>
+                                                                    <constraint firstItem="4jq-ie-mng" firstAttribute="height" secondItem="0dH-1V-eeb" secondAttribute="height" id="eAt-kr-KgQ"/>
                                                                     <constraint firstItem="qhf-3O-SNT" firstAttribute="height" secondItem="svl-jD-gtk" secondAttribute="height" id="ex3-9p-80s"/>
                                                                     <constraint firstAttribute="bottom" secondItem="qhf-3O-SNT" secondAttribute="bottom" id="j4w-dx-j1w"/>
                                                                     <constraint firstItem="qhf-3O-SNT" firstAttribute="leading" secondItem="0dH-1V-eeb" secondAttribute="leading" id="qWO-pW-xkp"/>
