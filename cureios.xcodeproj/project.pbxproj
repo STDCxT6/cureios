@@ -31,12 +31,15 @@
 		B1A946D72BFB2D8C0041057F /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946D62BFB2D8C0041057F /* home.storyboard */; };
 		B1A946D92BFB2D9B0041057F /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946D82BFB2D9B0041057F /* homeViewController.swift */; };
 		B1A946DE2BFB2E480041057F /* explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946DD2BFB2E480041057F /* explore.storyboard */; };
-		B1A946E02BFB2E580041057F /* exploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946DF2BFB2E580041057F /* exploreViewController.swift */; };
 		B1A946E52BFB2E9B0041057F /* event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946E42BFB2E9B0041057F /* event.storyboard */; };
 		B1A946E72BFB2EA70041057F /* eventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946E62BFB2EA70041057F /* eventViewController.swift */; };
 		B1A946EE2BFB36F40041057F /* hub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946ED2BFB36F40041057F /* hub.storyboard */; };
 		B1A946F02BFB37010041057F /* hubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A946EF2BFB37010041057F /* hubViewController.swift */; };
 		B1A946F42BFB3E520041057F /* launchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A946F32BFB3E520041057F /* launchScreen.storyboard */; };
+		B1CA69372BFF20E7003629C4 /* ExploreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA69322BFF20E7003629C4 /* ExploreTableViewCell.swift */; };
+		B1CA69382BFF20E7003629C4 /* ExploreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA69332BFF20E7003629C4 /* ExploreDetailsViewController.swift */; };
+		B1CA693A2BFF20E7003629C4 /* ExploreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA69352BFF20E7003629C4 /* ExploreData.swift */; };
+		B1CA693B2BFF20E7003629C4 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA69362BFF20E7003629C4 /* ExploreViewController.swift */; };
 		B1EF53EE2BF14B3400FEAC6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF53ED2BF14B3400FEAC6F /* AppDelegate.swift */; };
 		B1EF53F02BF14B3400FEAC6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF53EF2BF14B3400FEAC6F /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -65,12 +68,15 @@
 		B1A946D62BFB2D8C0041057F /* home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = home.storyboard; sourceTree = "<group>"; };
 		B1A946D82BFB2D9B0041057F /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		B1A946DD2BFB2E480041057F /* explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = explore.storyboard; sourceTree = "<group>"; };
-		B1A946DF2BFB2E580041057F /* exploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exploreViewController.swift; sourceTree = "<group>"; };
 		B1A946E42BFB2E9B0041057F /* event.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = event.storyboard; sourceTree = "<group>"; };
 		B1A946E62BFB2EA70041057F /* eventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventViewController.swift; sourceTree = "<group>"; };
 		B1A946ED2BFB36F40041057F /* hub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = hub.storyboard; sourceTree = "<group>"; };
 		B1A946EF2BFB37010041057F /* hubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hubViewController.swift; sourceTree = "<group>"; };
 		B1A946F32BFB3E520041057F /* launchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = launchScreen.storyboard; sourceTree = "<group>"; };
+		B1CA69322BFF20E7003629C4 /* ExploreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreTableViewCell.swift; sourceTree = "<group>"; };
+		B1CA69332BFF20E7003629C4 /* ExploreDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreDetailsViewController.swift; sourceTree = "<group>"; };
+		B1CA69352BFF20E7003629C4 /* ExploreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreData.swift; sourceTree = "<group>"; };
+		B1CA69362BFF20E7003629C4 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		B1EF53EA2BF14B3400FEAC6F /* cureios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cureios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1EF53ED2BF14B3400FEAC6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1EF53EF2BF14B3400FEAC6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -176,7 +182,10 @@
 		B1A946DC2BFB2E070041057F /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				B1A946DF2BFB2E580041057F /* exploreViewController.swift */,
+				B1CA69352BFF20E7003629C4 /* ExploreData.swift */,
+				B1CA69332BFF20E7003629C4 /* ExploreDetailsViewController.swift */,
+				B1CA69322BFF20E7003629C4 /* ExploreTableViewCell.swift */,
+				B1CA69362BFF20E7003629C4 /* ExploreViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -383,12 +392,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1A946F02BFB37010041057F /* hubViewController.swift in Sources */,
-				B1A946E02BFB2E580041057F /* exploreViewController.swift in Sources */,
 				B1903BFC2BFEF50400638617 /* mainTabBarController.swift in Sources */,
 				B1EF53EE2BF14B3400FEAC6F /* AppDelegate.swift in Sources */,
 				B1A946D92BFB2D9B0041057F /* homeViewController.swift in Sources */,
+				B1CA69372BFF20E7003629C4 /* ExploreTableViewCell.swift in Sources */,
+				B1CA69382BFF20E7003629C4 /* ExploreDetailsViewController.swift in Sources */,
 				B1A946E72BFB2EA70041057F /* eventViewController.swift in Sources */,
 				B1EF53F02BF14B3400FEAC6F /* SceneDelegate.swift in Sources */,
+				B1CA693B2BFF20E7003629C4 /* ExploreViewController.swift in Sources */,
+				B1CA693A2BFF20E7003629C4 /* ExploreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

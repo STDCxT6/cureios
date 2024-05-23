@@ -7,23 +7,57 @@
 
 import UIKit
 
-class exploreViewController: UIViewController {
-
+class ExploreViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    @IBOutlet var tableview: UITableView!
+    var tableData: [ExploreData] = [] //1
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableview.dataSource = self
+        tableview.delegate = self
+        tableData = ExploreData.sampleExploreData() //2
+        
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        tableData.count //3
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //4
+        let teamCell = tableView.dequeueReusableCell(withIdentifier: "exploreData", for: indexPath) as! ExploreTableViewCell
+        let exploreData = tableData[indexPath.row]
+        teamCell.photoImageView.image = exploreData.photo
+        teamCell.courseLabel.text = exploreData.course
+        teamCell.uniLabel.text = exploreData.uni
+        teamCell.kodLabel.text = exploreData.kod
+        teamCell.photoImageView.clipToBulat()
+        return teamCell
+        
+    }
+    //to navigate to each person details//
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let ExploreDetailViewController = segue.destination as?
+                ExploreDetailViewController, let selectedCell = sender as?
+                ExploreTableViewCell, let indexPath = tableview.indexPath(for:selectedCell) else {
+                return
+        }
+        let selectedExploreData = tableData[indexPath.row]
+        ExploreDetailViewController.selectedExploreData = selectedExploreData    }
+    
 }
+
+extension UIImageView {
+    func clipToBulat() {
+        self.layoutIfNeeded()
+        
+        // Set the default corner radius to 12 points
+        self.layer.cornerRadius = 12
+        self.clipsToBounds = true
+
+    }
+}
+
