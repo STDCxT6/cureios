@@ -209,8 +209,8 @@
 		B1A946EA2BFB36DA0041057F /* hub */ = {
 			isa = PBXGroup;
 			children = (
-				B1A946EC2BFB36E80041057F /* controller */,
 				B1A946EB2BFB36E10041057F /* view */,
+				B1A946EC2BFB36E80041057F /* controller */,
 			);
 			path = hub;
 			sourceTree = "<group>";

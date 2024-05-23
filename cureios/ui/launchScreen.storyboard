@@ -23,8 +23,8 @@
                                     <constraint firstAttribute="height" constant="100" id="wBh-eK-Rog"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AspireU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yI-18-lCs">
-                                <rect key="frame" x="113.00000000000001" y="438.66666666666669" width="167.33333333333337" height="105.00000000000006"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="AspireU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yI-18-lCs">
+                                <rect key="frame" x="113" y="439" width="216" height="105"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="31"/>
                                 <color key="textColor" white="0.22166375290000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
