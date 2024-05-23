@@ -99,7 +99,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kSk-qq-Zdv">
                                                         <rect key="frame" x="0.0" y="364.33333333333337" width="393" height="412.33333333333337"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Featured Updates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdn-ZA-Vka">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education Journey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdn-ZA-Vka">
                                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="24"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="24" id="4Av-6g-w9o"/>
@@ -108,7 +108,7 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News and Events, Trending by Users." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9s-0q-GRp">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore all the options for your future" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9s-0q-GRp">
                                                                 <rect key="frame" x="0.0" y="24" width="393" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="18" id="dD5-ZK-GUQ"/>
@@ -120,10 +120,10 @@
                                                             <scrollView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dH-1V-eeb">
                                                                 <rect key="frame" x="-72" y="0.0" width="497" height="412.33333333333331"/>
                                                                 <subviews>
-                                                                    <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feature-cards" translatesAutoresizingMaskIntoConstraints="NO" id="qhf-3O-SNT">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="901" height="412.33333333333331"/>
+                                                                    <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="explore-cards" translatesAutoresizingMaskIntoConstraints="NO" id="qhf-3O-SNT">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="800" height="412.33333333333331"/>
                                                                         <constraints>
-                                                                            <constraint firstAttribute="width" constant="901" id="2LB-sd-QRJ"/>
+                                                                            <constraint firstAttribute="width" constant="800" id="2LB-sd-QRJ"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                 </subviews>
@@ -324,6 +324,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="explore-cards" width="772" height="340"/>
         <image name="feature-cards" width="901" height="346"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
