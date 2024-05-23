@@ -229,9 +229,17 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		B1A946F52BFEF46C0041057F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		B1EE91B32BF2F75100A66182 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				B1A946F52BFEF46C0041057F /* controller */,
 				B1A946EA2BFB36DA0041057F /* hub */,
 				B1A946E12BFB2E5E0041057F /* event */,
 				B1A946DA2BFB2DBE0041057F /* explore */,
