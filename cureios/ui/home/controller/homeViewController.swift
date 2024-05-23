@@ -19,6 +19,9 @@ class homeViewController: UIViewController {
         self.tabBarController?.selectedIndex = 1
     }
     
+    @IBAction func gotoNews(_ sender: UIButton) {
+        self.tabBarController?.selectedIndex = 2
+    }
     /*
     // MARK: - Navigation
 

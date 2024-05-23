@@ -18,7 +18,6 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1zQ-e6-6OT">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <color key="backgroundColor" red="0.55686277149999996" green="0.64705884459999996" blue="1" alpha="0.25135522959183676" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Bl4-tG-4ps">
                                 <rect key="frame" x="0.0" y="58.999999999999986" width="393" height="159.66666666666663"/>
@@ -203,6 +202,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="As1-vU-fBs" firstAttribute="leading" secondItem="Nbb-En-BHy" secondAttribute="leading" constant="16" id="aOF-V8-mLk"/>
+                                    <constraint firstAttribute="trailing" secondItem="As1-vU-fBs" secondAttribute="trailing" constant="16" id="wuX-mi-f6K"/>
+                                </constraints>
                             </stackView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qob-cc-EzO">
                                 <rect key="frame" x="0.0" y="56.666666666666686" width="393" height="785.33333333333326"/>

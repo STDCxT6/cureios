@@ -24,7 +24,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="KNJ-mq-yPk">
-                                        <rect key="frame" x="20" y="16" width="393" height="469"/>
+                                        <rect key="frame" x="20" y="0.0" width="393" height="469"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21T-nQ-Fr9">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="40.666666666666664"/>
@@ -48,7 +48,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore all the options for your future" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLJ-DS-h0P">
-                                                                <rect key="frame" x="0.0" y="24" width="393" height="18"/>
+                                                                <rect key="frame" x="0.0" y="23.999999999999986" width="393" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="18" id="06Z-0A-kOH"/>
                                                                 </constraints>
@@ -108,7 +108,7 @@
                                     <constraint firstItem="KNJ-mq-yPk" firstAttribute="width" secondItem="fyN-Py-qlm" secondAttribute="width" id="JJJ-CP-Z3B"/>
                                     <constraint firstAttribute="bottom" secondItem="KNJ-mq-yPk" secondAttribute="bottom" constant="20" symbolic="YES" id="WDP-aZ-nsu"/>
                                     <constraint firstAttribute="trailing" secondItem="KNJ-mq-yPk" secondAttribute="trailing" constant="-20" id="lKH-3R-nAG"/>
-                                    <constraint firstItem="KNJ-mq-yPk" firstAttribute="top" secondItem="Lx6-4r-eNO" secondAttribute="top" constant="16" id="msL-E3-3uL"/>
+                                    <constraint firstItem="KNJ-mq-yPk" firstAttribute="top" secondItem="Lx6-4r-eNO" secondAttribute="top" id="msL-E3-3uL"/>
                                     <constraint firstItem="KNJ-mq-yPk" firstAttribute="width" secondItem="HGP-aG-P7b" secondAttribute="width" id="nMm-jw-bzE"/>
                                     <constraint firstItem="KNJ-mq-yPk" firstAttribute="leading" secondItem="Lx6-4r-eNO" secondAttribute="leading" constant="20" id="sH1-pM-h51"/>
                                 </constraints>
